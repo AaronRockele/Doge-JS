@@ -1,7 +1,18 @@
-window.onload() {
+window.onload = function(){
 
-    function myFunction() {
-        alert("Test");
+    document.getElementById("doge").innerHTML = "Woof!";
+
+};
+function newText()
+    {
+       
+        document.getElementById("doge").innerHTML = "Woof Woof!";
+    
     };
 
-}
+    function oldText()
+    {
+
+        document.getElementById("doge").innerHTML = "doggo";
+        
+    };
