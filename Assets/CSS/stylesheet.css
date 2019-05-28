@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
 .wrapper {
     display: flex;
     justify-content: center;
@@ -10,4 +14,13 @@
     width: 100px;
     background-color: blue;
     color: white;
+}
+
+img {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 200px;
+    width: auto;
 }

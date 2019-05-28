@@ -10,9 +10,20 @@ function newText()
     
     };
 
-    function oldText()
+function oldText()
     {
 
         document.getElementById("doge").innerHTML = "doggo";
         
     };
+function picture() 
+{
+   if (document.getElementById("pic1").style.display === "block") {
+       document.getElementById("pic1").style.display = "none";
+   }
+    else  {
+        document.getElementById("pic1").style.display = "block";
+    }
+    
+   
+}
