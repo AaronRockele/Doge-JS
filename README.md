@@ -1,1 +1,1 @@
-# Doge-JS
+# self-study-JS

@@ -1,0 +1,28 @@
+body {
+    background: darkgrey;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    height:50px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    font-size: 2em
+}
+
+#image > img {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 200px;
+    width: auto;
+}
